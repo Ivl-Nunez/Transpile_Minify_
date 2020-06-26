@@ -1,4 +1,4 @@
-Using Babel
+##Transpiling (Using Babel)
 
 1. Choose tool:
     First step is to choose your Babel tool. This guide will go over CLI
@@ -11,3 +11,10 @@ Using Babel
 4. Usage:
     Add script in package.json -> "build": "babel <src> -d lib"
     Terminal -> npm run build
+
+
+##Minifying (Using minify)
+
+NPM Package -> https://www.npmjs.com/package/minify
+Install -> npm install minify -g
+Usage -> minify inputFile > outputFile
