@@ -15,6 +15,6 @@
 
 #Minifying (Using minify)
 
-NPM Package -> https://www.npmjs.com/package/minify
-Install -> npm install minify -g
-Usage -> minify inputFile > outputFile
+1. NPM Package -> https://www.npmjs.com/package/minify
+2. Install -> npm install minify -g
+3. Usage -> minify inputFile > outputFile
