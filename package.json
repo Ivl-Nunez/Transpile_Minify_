@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel index.js -d lib"
+    "build": "babel index.js -d prod && minify prod/index.js > prod/index.min.js"
   },
   "author": "",
   "license": "ISC",
